@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-lila-bg: #F6F1FA;
+  --color-rosa-pastel: #E8C9D7;
+  --color-lila-primary: #B99AD6;
+  --color-lila-light: #EFE6F7;
+  --color-malva: #80618F;
+  --color-malva-dark: #583F63;
+  --color-blanco-warm: #FFFEFC;
+  --color-texto-main: #352D38;
+  --color-texto-sub: #6F6672;
+}
+
+:root {
+  --bg-main: #F6F1FA;
+  --text-main: #352D38;
+  --text-muted: #6F6672;
+  --accent-malva: #80618F;
+  --accent-lila: #B99AD6;
+  --card-bg: #FFFEFC;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid #80618F;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

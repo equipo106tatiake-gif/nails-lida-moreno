@@ -1,0 +1,6 @@
+{
+  "name": "Nails Lida Moreno - Manicura y Cuidado en Medellín",
+  "description": "Landing page oficial de Nails Lida Moreno en Medellín, Antioquia. Manicura tradicional, semipermanente, acrílicas esculpidas y atención en casa o a domicilio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
